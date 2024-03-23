@@ -1,0 +1,19 @@
+(P rule name
+  (begins)
+  
+  (write"Enter a number")
+  (read<x>)
+  (insert` condition<x>)
+  (remove1)
+  )
+  (P positive
+    (check<x>>=0)
+    (write<x>"the number is positive")
+    (remove 1)
+    )
+    (P negative
+    (check<x><0)
+    (write<x>"the number is negative")
+    (remove 1)
+    )
+    

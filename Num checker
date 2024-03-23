@@ -1,0 +1,17 @@
+(P rule checker
+  (begin)
+(write"Enter a number")
+(read<>x)
+(insert`condition)
+(remove 1)
+)
+(P positive
+  (check<x>>=0)
+(write<x>"the number is positive)
+(remove 1)
+)
+(P positive
+  (check<x><=0)
+(write<x>"the number is negative)
+(remove 1)
+)
